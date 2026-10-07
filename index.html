@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Дмитрий Сазонов — Technical Project Manager | ИИ Интегратор</title>
+<meta name="description" content="Как я превращаю сложные процессы в работающие системы">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:#F6F5F1;color:#17191D;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:#5755E7}
+a:hover{color:#17191D}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media (max-width:860px){[data-stag]{grid-column:1/-1!important;grid-row:auto!important;margin:0!important}}
+</style>
+</helmet>
+
+<div id="top" style="background:#F6F5F1;color:#17191D;font-family:'Inter',sans-serif;overflow-x:clip">
+
+<div style="position:fixed;top:0;left:0;right:0;height:3px;z-index:60;pointer-events:none"><div id="pbar" style="height:100%;width:0;background:#5755E7"></div></div>
+
+<nav style="position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px clamp(12px,5.5vw,96px);background:rgba(236,234,255,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(87,85,231,.25);font:500 14px/1 'Inter',sans-serif">
+  <a href="#contact" style="display:flex;align-items:center;gap:12px;color:#17191D;text-decoration:none">
+    <img src="img/dmitry.png" alt="" style="display:block;flex:none;width:44px;height:44px;border-radius:50%;box-shadow:0 0 0 2px #fff,0 0 0 3px rgba(87,85,231,.5)">
+    <span style="font-family:'Manrope',sans-serif;font-weight:700;font-size:clamp(14px,4vw,19px);letter-spacing:-.01em;line-height:1">Дмитрий Сазонов</span>
+  </a>
+  <div style="display:flex;gap:6px;align-items:center">
+    <a href="https://t.me/saizonov" target="_blank" rel="noopener" aria-label="Telegram @saizonov" style="display:flex;align-items:center;gap:8px;color:#17191D;text-decoration:none;padding:5px clamp(2px,1vw,12px) 5px 4px;border-radius:999px;font-weight:600;transition:background-color .25s ease" style-hover="background-color:#fff"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#229ED9"/><path d="M5.2 11.7 17.4 7c.6-.2 1.1.1.9 1l-2.1 9.7c-.1.7-.6.9-1.2.6l-3.200-2.400-1.500 1.500c-.2.2-.3.3-.6.3l.2-3.300 6-5.400c.3-.2-.1-.4-.4-.2l-7.400 4.700-3.200-1c-.7-.2-.7-.7.1-1z" fill="#fff"/></svg><span data-desk="1">@saizonov</span></a>
+    <a data-nav="1" href="#case1" style="color:#5755E7;text-decoration:none;padding:8px clamp(9px,2.6vw,16px);border:1px solid #5755E7;border-radius:999px;font-weight:600;font-size:clamp(12px,3.3vw,14px);white-space:nowrap;transition:background-color .25s ease,color .25s ease" style-hover="background-color:#5755E7;color:#fff">КЕЙС 1</a>
+    <a data-nav="2" href="#case2" style="color:#5755E7;text-decoration:none;padding:8px clamp(9px,2.6vw,16px);border:1px solid #5755E7;border-radius:999px;font-weight:600;font-size:clamp(12px,3.3vw,14px);white-space:nowrap;transition:background-color .25s ease,color .25s ease" style-hover="background-color:#5755E7;color:#fff">КЕЙС 2</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section style="padding:clamp(100px,14vh,140px) 0 clamp(36px,6vh,64px)">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px);display:flex;flex-direction:column;gap:clamp(20px,3.5vh,36px)">
+    <h1 data-r="up" data-d="0" style="margin:0;opacity:0;transform:translateY(24px);transition:opacity .6s cubic-bezier(.2,.7,.2,1),transform .6s cubic-bezier(.2,.7,.2,1);font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(38px,6.6vw,96px);line-height:1;letter-spacing:-.04em;max-width:1100px;text-wrap:balance">Как я превращаю сложные процессы<br><span style="color:#5755E7">в работающие системы</span></h1>
+    <p data-r="up" data-d="200" style="margin:0;opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;max-width:600px;font-size:clamp(16px,1.35vw,19px);line-height:1.5;color:#4A4D55;text-wrap:pretty">Два кейса: рост продаж через данные и масштабирование операционных процессов без пропорционального роста штата.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:20px;padding-top:8px">
+      <div data-r="up" data-d="400" style="flex:1 1 180px;min-width:0;opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease"><i data-r="line" data-d="500" style="display:block;height:2px;background:#5755E7;transform:scaleX(0);transform-origin:left;transition:transform 1s cubic-bezier(.6,0,.2,1);margin-bottom:12px"></i><span style="font:600 12px/1 'Inter',sans-serif;color:#5755E7;letter-spacing:.08em">01</span><div style="margin-top:8px;font:500 clamp(17px,1.5vw,21px)/1.2 'Inter Tight','Manrope',sans-serif">Разобрать процесс</div></div>
+      <div data-r="up" data-d="520" style="flex:1 1 180px;min-width:0;opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease"><i data-r="line" data-d="620" style="display:block;height:2px;background:#5755E7;transform:scaleX(0);transform-origin:left;transition:transform 1s cubic-bezier(.6,0,.2,1);margin-bottom:12px"></i><span style="font:600 12px/1 'Inter',sans-serif;color:#5755E7;letter-spacing:.08em">02</span><div style="margin-top:8px;font:500 clamp(17px,1.5vw,21px)/1.2 'Inter Tight','Manrope',sans-serif">Найти узкое место</div></div>
+      <div data-r="up" data-d="640" style="flex:1 1 180px;min-width:0;opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease"><i data-r="line" data-d="740" style="display:block;height:2px;background:#5755E7;transform:scaleX(0);transform-origin:left;transition:transform 1s cubic-bezier(.6,0,.2,1);margin-bottom:12px"></i><span style="font:600 12px/1 'Inter',sans-serif;color:#5755E7;letter-spacing:.08em">03</span><div style="margin-top:8px;font:500 clamp(17px,1.5vw,21px)/1.2 'Inter Tight','Manrope',sans-serif">Собрать MVP</div></div>
+      <div data-r="up" data-d="760" style="flex:1 1 180px;min-width:0;opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease"><i data-r="line" data-d="860" style="display:block;height:2px;background:#5755E7;transform:scaleX(0);transform-origin:left;transition:transform 1s cubic-bezier(.6,0,.2,1);margin-bottom:12px"></i><span style="font:600 12px/1 'Inter',sans-serif;color:#5755E7;letter-spacing:.08em">04</span><div style="margin-top:8px;font:500 clamp(17px,1.5vw,21px)/1.2 'Inter Tight','Manrope',sans-serif">Масштабировать</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CASE 1 ENTRY -->
+<section id="case1" style="background:#E8E8E3;padding:clamp(48px,8vh,96px) 0 clamp(32px,5vh,64px);overflow:hidden">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px)">
+    <h2 data-r="up" style="margin:0;max-width:1100px;opacity:0;transform:translateY(28px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(34px,5.2vw,80px);line-height:1;letter-spacing:-.035em;text-wrap:balance">Из разрозненных данных в <span style="color:#5755E7">инструмент продаж</span></h2>
+    <div data-r="up" data-d="150" style="opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;display:flex;align-items:flex-end;gap:6px;margin-top:clamp(8px,2vh,20px)">
+      <span style="font:600 13px/1 'Inter',sans-serif;letter-spacing:.12em;color:#5755E7;padding-bottom:clamp(14px,2vw,30px)">КЕЙС</span>
+      <span style="font-family:'Inter Tight','Manrope',sans-serif;font-weight:700;font-size:clamp(110px,15vw,220px);line-height:.8;letter-spacing:-.06em;color:#E8E8E3;-webkit-text-stroke:2px #5755E7">1</span>
+    </div>
+  </div>
+</section>
+
+<!-- CASE 1 ПРОБЛЕМА / РЕШЕНИЕ / ЭФФЕКТ -->
+<section style="padding:clamp(40px,7vh,80px) 0">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px);display:flex;flex-wrap:wrap;gap:16px;align-items:stretch">
+    <div data-r="up" style="opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease;flex:1 1 300px;min-width:0;box-sizing:border-box;padding:clamp(20px,2.4vw,32px);border-radius:20px;background:#E8E8E3;border-top:5px solid #D8362F">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;font:700 clamp(30px,3.6vw,52px)/1 'Inter Tight','Manrope',sans-serif;letter-spacing:-.04em;color:#D8362F"><span style="flex:none;width:14px;height:14px;border-radius:50%;background:#D8362F"></span>ПРОБЛЕМА</div>
+      <p style="margin:0;font:500 clamp(20px,2vw,28px)/1.2 'Inter Tight','Manrope',sans-serif;letter-spacing:-.015em;text-wrap:pretty">Данные собранные в маркетинговых квизах и звонках, на встрече <span style="color:#D8362F">не использовались продавцом</span>, но потенциально могли стать <span style="color:#D8362F">толчком к росту продаж</span></p>
+    </div>
+    <div data-r="up" data-d="150" style="opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease;flex:1 1 300px;min-width:0;box-sizing:border-box;padding:clamp(20px,2.4vw,32px);border-radius:20px;background:#17191D;color:#F6F5F1;border-top:5px solid #5755E7">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;font:700 clamp(30px,3.6vw,52px)/1 'Inter Tight','Manrope',sans-serif;letter-spacing:-.04em;color:#9B99F7"><span style="flex:none;width:14px;height:14px;border-radius:50%;background:#5755E7"></span>РЕШЕНИЕ</div>
+      <p style="margin:0;font:500 clamp(20px,2vw,28px)/1.2 'Inter Tight','Manrope',sans-serif;letter-spacing:-.015em;text-wrap:pretty">Собрал инструмент который объединял информацию о клиенте, <span style="color:#9B99F7">сегментировал</span> и <span style="color:#9B99F7">выдавал продукт под конкретный профиль</span></p>
+    </div>
+    <div data-r="up" data-d="300" style="opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease;flex:1 1 300px;min-width:0;box-sizing:border-box;padding:clamp(20px,2.4vw,32px);border-radius:20px;background:#ECEAFF;border-top:5px solid #26A078">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;font:700 clamp(30px,3.6vw,52px)/1 'Inter Tight','Manrope',sans-serif;letter-spacing:-.04em;color:#1B7F5E"><span style="flex:none;width:14px;height:14px;border-radius:50%;background:#26A078"></span>ЭФФЕКТ</div>
+      <p style="margin:0;font:500 clamp(20px,2vw,28px)/1.2 'Inter Tight','Manrope',sans-serif;letter-spacing:-.015em;text-wrap:pretty">Менеджер получает <span style="color:#1B7F5E">релевантный продукт и сценарий разговора</span> ещё до ключевой встречи</p>
+    </div>
+  </div>
+</section>
+
+<!-- CASE 1 INTERFACE: три скриншота -->
+<section style="background:#17191D;color:#F6F5F1;padding:clamp(8px,2vh,24px) 0 clamp(48px,8vh,96px)">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px);display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(24px,4vh,40px) 16px;align-items:start">
+    <div data-r="up" data-d="0" data-stag="1" style="opacity:0;transform:translateY(32px);transition:opacity .7s ease,transform .7s ease;display:flex;flex-direction:column;min-width:0;position:relative;grid-column:1 / 7;grid-row:1;z-index:3">
+      <div style="position:relative;aspect-ratio:1.3/1;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 30px 70px -30px rgba(0,0,0,.7)">
+        <img data-zoom="1" onClick="{{ openZoom }}" src="img/crm.png" alt="" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;cursor:zoom-in;transition:transform .3s ease" style-hover="transform:scale(1.03)">
+      </div>
+      <div style="position:relative;margin:-22px 14px 0;flex:1;box-sizing:border-box;padding:18px 20px;border-radius:20px;background:#22252B;border:1px solid rgba(155,153,247,.5);box-shadow:0 20px 50px -20px rgba(0,0,0,.8)"><span style="font:600 12px/1 'Inter',sans-serif;color:#9B99F7;letter-spacing:.08em">01</span><p style="margin:8px 0 0;font-size:clamp(15px,1.25vw,18px);line-height:1.4;text-wrap:pretty"><strong style="font-weight:600;color:#fff">Данные из CRM:</strong> в инструмент автоматически подтягивается вся доступная информация об ученике.</p></div>
+    </div>
+    <div data-r="up" data-d="150" data-stag="2" style="opacity:0;transform:translateY(32px);transition:opacity .7s ease,transform .7s ease;display:flex;flex-direction:column;min-width:0;position:relative;grid-column:7 / 13;grid-row:1;margin-top:clamp(60px,12vw,170px);margin-left:clamp(-40px,-2.5vw,-12px);z-index:2">
+      <div style="position:relative;aspect-ratio:1.3/1;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 30px 70px -30px rgba(0,0,0,.7)">
+        <img data-zoom="1" onClick="{{ openZoom }}" src="img/diag.png" alt="" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;cursor:zoom-in;transition:transform .3s ease" style-hover="transform:scale(1.03)">
+      </div>
+      <div style="position:relative;margin:-22px 14px 0;flex:1;box-sizing:border-box;padding:18px 20px;border-radius:20px;background:#22252B;border:1px solid rgba(155,153,247,.5);box-shadow:0 20px 50px -20px rgba(0,0,0,.8)"><span style="font:600 12px/1 'Inter',sans-serif;color:#9B99F7;letter-spacing:.08em">02</span><p style="margin:8px 0 0;font-size:clamp(15px,1.25vw,18px);line-height:1.4;text-wrap:pretty"><strong style="font-weight:600;color:#fff">Результаты диагностики:</strong> после встречи система дополняет профиль глубокой оценкой навыков ребёнка.</p></div>
+    </div>
+    <div data-r="up" data-d="300" data-stag="3" style="opacity:0;transform:translateY(32px);transition:opacity .7s ease,transform .7s ease;display:flex;flex-direction:column;min-width:0;position:relative;grid-column:2 / 8;grid-row:2;margin-top:clamp(-90px,-6vw,-30px);z-index:1">
+      <div style="position:relative;aspect-ratio:1.3/1;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 30px 70px -30px rgba(0,0,0,.7)">
+        <img data-zoom="1" onClick="{{ openZoom }}" src="img/assess.png" alt="" loading="lazy" style="display:block;width:100%;height:100%;object-fit:contain;cursor:zoom-in;transition:transform .3s ease" style-hover="transform:scale(1.03)"><sc-if value="{{ hasFin }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;right:12px;top:12px;padding:9px 14px;border-radius:999px;background:#5755E7;color:#fff;font:600 14px/1 'Inter',sans-serif;box-shadow:0 10px 24px -8px rgba(87,85,231,.7)">{{ fin }}</div></sc-if>
+      </div>
+      <div style="position:relative;margin:-22px 14px 0;flex:1;box-sizing:border-box;padding:18px 20px;border-radius:20px;background:#22252B;border:1px solid rgba(155,153,247,.5);box-shadow:0 20px 50px -20px rgba(0,0,0,.8)"><span style="font:600 12px/1 'Inter',sans-serif;color:#9B99F7;letter-spacing:.08em">03</span><p style="margin:8px 0 0;font-size:clamp(15px,1.25vw,18px);line-height:1.4;text-wrap:pretty"><strong style="font-weight:600;color:#fff">Финансовая сила:</strong> продавцу остаётся подтвердить сегмент High / Middle / Low на основе диалога с клиентом.</p>
+          <div style="position:relative;display:inline-block;margin-top:12px">
+            <button onClick="{{ toggleFin }}" aria-label="High / Middle / Low" style="all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:10px;background:#5755E7;color:#fff;font:500 14px/1 'Inter',sans-serif;transition:background .2s ease,transform .2s ease" style-hover="background:#6B69F0;transform:translateY(-1px)">{{ finLabel }}<span style="font-size:12px">▾</span></button>
+            <sc-if value="{{ finOpen }}" hint-placeholder-val="{{ false }}">
+              <div style="position:absolute;left:0;bottom:calc(100% + 6px);min-width:100%;background:#F6F5F1;border-radius:10px;overflow:hidden;box-shadow:0 20px 40px -10px rgba(0,0,0,.5);z-index:5">
+                <sc-for list="{{ finOptions }}" as="o" hint-placeholder-count="3">
+                  <div onClick="{{ o.pick }}" style="cursor:pointer;padding:11px 14px;color:#17191D;font:500 14px/1 'Inter',sans-serif;transition:background .15s ease" style-hover="background:#ECEAFF">{{ o.label }}</div>
+                </sc-for>
+              </div>
+            </sc-if>
+          </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CASE 1 SALES RESULT -->
+<section style="background:#17191D;color:#F6F5F1;padding:clamp(24px,5vh,56px) 0 clamp(56px,9vh,104px)">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px)">
+    <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:center">
+      <div style="flex:6 1 400px;min-width:0">
+        <div data-r="up" style="opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease;font:600 15px/1 'Inter',sans-serif;color:#9B99F7;margin-bottom:20px">Результат для Sales:</div>
+        <p data-r="up" data-d="100" style="margin:0;opacity:0;transform:translateY(28px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);font-family:'Inter Tight','Manrope',sans-serif;font-weight:500;font-size:clamp(22px,2.6vw,38px);line-height:1.15;letter-spacing:-.02em;text-wrap:pretty">На основе возраста ребёнка + целей + уровня навыков + финансовой силы семьи система автоматически формирует персональную веб-страницу — фактически <span style="color:#9B99F7">готовый сценарий продажи</span>, который включает:</p>
+      </div>
+      <div style="flex:6 1 380px;min-width:0;position:relative;aspect-ratio:1/1.05">
+        <div data-px="0.06" style="position:absolute;right:0;top:0;width:46%">
+          <div data-r="up" data-d="200" style="opacity:0;transform:translateY(40px);transition:opacity .8s ease,transform .8s ease"><img data-zoom="1" onClick="{{ openZoom }}" src="img/image4.png" alt="" loading="lazy" style="display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 40px 80px -30px rgba(0,0,0,.8);cursor:zoom-in;transition:transform .3s ease" style-hover="transform:scale(1.03)"></div>
+        </div>
+        <div data-px="-0.05" style="position:absolute;left:0;bottom:0;width:64%">
+          <div data-r="up" data-d="350" style="opacity:0;transform:translateY(40px);transition:opacity .8s ease,transform .8s ease"><img data-zoom="1" onClick="{{ openZoom }}" src="img/report.png" alt="" loading="lazy" style="display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 40px 80px -30px rgba(0,0,0,.8);cursor:zoom-in;transition:transform .3s ease" style-hover="transform:scale(1.03)"></div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:clamp(32px,6vh,64px);display:flex;flex-wrap:wrap;gap:12px">
+      <sc-for list="{{ chain }}" as="c" hint-placeholder-count="5">
+        <div data-r="up" data-d="{{ c.d }}" style="flex:1 1 160px;min-width:0;opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease;position:relative;padding:24px 18px 18px;background:#22252B;border-radius:12px;overflow:hidden">
+          <i data-r="line" data-d="{{ c.d2 }}" style="position:absolute;left:0;right:0;top:0;height:3px;background:#5755E7;transform:scaleX(0);transform-origin:left;transition:transform .9s cubic-bezier(.6,0,.2,1)"></i>
+          <div style="font:600 12px/1 'Inter',sans-serif;color:#9B99F7;letter-spacing:.08em;margin-bottom:10px">{{ c.n }}</div>
+          <div style="font:500 clamp(16px,1.3vw,19px)/1.25 'Inter Tight','Manrope',sans-serif">{{ c.t }}</div>
+        </div>
+      </sc-for>
+    </div>
+    <p data-r="up" style="margin:clamp(36px,7vh,72px) 0 0;max-width:1100px;opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);font-family:'Inter Tight','Manrope',sans-serif;font-weight:500;font-size:clamp(26px,3.8vw,56px);line-height:1.06;letter-spacing:-.03em;text-wrap:pretty">То есть продавец получает не просто набор данных о клиенте, а <span style="color:#9B99F7">готовое персонализированное предложение</span>, учитывающее одновременно потребности ребёнка и возможности семьи.</p>
+  </div>
+</section>
+
+<!-- CASE 1 RESULT -->
+<section style="padding:clamp(56px,9vh,104px) 0 clamp(40px,7vh,80px)">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px);display:flex;flex-wrap:wrap;gap:clamp(28px,4vw,64px);align-items:center">
+    <div style="flex:5 1 380px;min-width:0;display:flex;flex-direction:column;gap:clamp(18px,3vh,28px)">
+      <div data-r="up" style="opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;font:600 13px/1 'Inter',sans-serif;letter-spacing:.12em;color:#26A078">РЕЗУЛЬТАТ</div>
+      <h3 data-r="up" data-d="100" style="margin:0;opacity:0;transform:translateY(28px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(32px,4.4vw,68px);line-height:1;letter-spacing:-.04em;text-wrap:balance">Персонализированный подход вместо шаблонной продажи;</h3>
+      <p data-r="up" data-d="200" style="margin:0;opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;font:500 clamp(18px,1.6vw,23px)/1.35 'Inter Tight','Manrope',sans-serif;letter-spacing:-.01em;color:#2E3138;text-wrap:pretty">система увеличила число продаж более крупных пакетов благодаря механики сегментации, персонализации и выдачи подходящего продукта с длительностью обучения.</p>
+      <p data-r="up" data-d="300" style="margin:0;padding-top:clamp(14px,2.4vh,22px);border-top:1px solid rgba(23,25,29,.2);opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;font:500 clamp(18px,1.6vw,23px)/1.35 'Inter Tight','Manrope',sans-serif;letter-spacing:-.01em;text-wrap:pretty">Продукт с подключённым инструментом стал одним из драйверов роста выручки, показывая более высокую динамику относительно остальных направлений.</p>
+    </div>
+    <div data-r="up" data-d="150" style="flex:7 1 460px;min-width:0;opacity:0;transform:translateY(32px);transition:opacity .8s ease,transform .8s ease;background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 40px 100px -50px rgba(23,25,29,.35)">
+      <img data-zoom="1" onClick="{{ openZoom }}" src="img/revenue.png" alt="" loading="lazy" style="display:block;width:100%;height:auto;cursor:zoom-in;transition:transform .3s ease" style-hover="transform:scale(1.02)">
+    </div>
+  </div>
+</section>
+
+<!-- CASE 1 IMPACT -->
+<section style="padding:0 0 clamp(48px,8vh,96px)">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px)">
+    <div data-burst="1" style="position:relative;background:#17191D;color:#F6F5F1;border-radius:28px;padding:clamp(36px,7vh,80px) clamp(20px,4vw,64px);overflow:hidden;text-align:center">
+      <canvas id="fw" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none"></canvas>
+      <div style="position:relative;display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:8px clamp(14px,2.4vw,36px);font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;letter-spacing:-.04em;line-height:1">
+        <span data-r="up" data-d="0" style="opacity:0;transform:translateY(24px) scale(.96);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1);font-size:clamp(30px,5.4vw,84px)">1 месяц моей разработки</span>
+        <span style="display:inline-flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:8px clamp(14px,2.4vw,36px)"><span data-r="up" data-d="350" style="opacity:0;transition:opacity .6s ease;font-size:clamp(28px,4.4vw,64px);color:#9B99F7">→</span><span data-r="up" data-d="650" style="opacity:0;transform:scale(.7);transition:opacity .5s ease,transform .8s cubic-bezier(.2,1.4,.4,1);font-size:clamp(30px,5.4vw,84px)">вклад в первый <span style="color:#26A078">$1.1M</span> вертикали</span></span>
+      </div>
+      <p data-r="up" data-d="1100" style="position:relative;margin:clamp(20px,4vh,36px) 0 0;opacity:0;transform:translateY(12px);transition:opacity .8s ease,transform .8s ease;font:500 clamp(14px,1.2vw,16px)/1.4 'Inter',sans-serif;color:#C9CBD1;letter-spacing:.01em">Минимальные затраты на разработку. Максимальный бизнес-эффект.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CASE 2 ENTRY -->
+<section id="case2" style="background:#E8E8E3;padding:clamp(48px,8vh,96px) 0 clamp(32px,5vh,64px);overflow:hidden">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px)">
+    <h2 data-r="up" style="margin:0;max-width:1180px;opacity:0;transform:translateY(28px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(30px,4.5vw,70px);line-height:1.02;letter-spacing:-.035em;text-wrap:balance">Рост преподавателей <span style="color:#5755E7">без пропорционального роста</span> менеджеров сопровождения и качества преподавателей</h2>
+    <p data-r="up" data-d="120" style="margin:clamp(16px,3vh,28px) 0 0;max-width:600px;opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;font-size:clamp(16px,1.4vw,20px);line-height:1.5;color:#2E3138;text-wrap:pretty">Вместо масштабирования ручной операционки — единая внутренняя система на автоматизации и регламентах.</p>
+    <div data-r="up" data-d="200" style="opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;display:flex;align-items:flex-end;gap:6px;margin-top:clamp(8px,2vh,20px)">
+      <span style="font:600 13px/1 'Inter',sans-serif;letter-spacing:.12em;color:#5755E7;padding-bottom:clamp(14px,2vw,30px)">КЕЙС</span>
+      <span style="font-family:'Inter Tight','Manrope',sans-serif;font-weight:700;font-size:clamp(110px,15vw,220px);line-height:.8;letter-spacing:-.06em;color:#E8E8E3;-webkit-text-stroke:2px #5755E7">2</span>
+    </div>
+  </div>
+</section>
+
+<!-- CASE 2 БЫЛО / СТАЛО -->
+<section style="padding:clamp(40px,7vh,80px) 0 clamp(40px,7vh,80px)">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px);display:flex;flex-wrap:wrap;gap:16px;align-items:stretch">
+    <div style="flex:1 1 360px;min-width:0;box-sizing:border-box;padding:clamp(20px,2.4vw,32px);border-radius:20px;background:#E8E8E3">
+      <div data-r="up" style="opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;font-family:'Inter Tight','Manrope',sans-serif;font-weight:700;font-size:clamp(40px,5vw,72px);letter-spacing:-.04em;line-height:1;margin-bottom:20px">БЫЛО</div>
+      <sc-for list="{{ was }}" as="r" hint-placeholder-count="5">
+        <div data-r="up" data-d="{{ r.d }}" style="opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;padding:14px 0 16px;border-top:1px solid rgba(23,25,29,.15)">
+          <div style="transform:translateX({{ r.tx }}) rotate({{ r.rot }});transform-origin:0 50%">
+            <div style="font:500 clamp(18px,1.7vw,24px)/1.2 'Inter Tight','Manrope',sans-serif;margin-bottom:10px;text-wrap:pretty">{{ r.t }}</div>
+            <div style="display:flex;align-items:center;height:6px;margin-left:{{ r.ml }}"><i style="display:block;height:6px;width:{{ r.w }};background:#9A9B94;border-radius:3px"></i><i style="display:block;height:6px;width:{{ r.w2 }};margin-left:8px;background:#C4C5BE;border-radius:3px;transform:rotate({{ r.rot2 }})"></i></div>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+    <div style="flex:1 1 360px;min-width:0;box-sizing:border-box;padding:clamp(20px,2.4vw,32px);border-radius:20px;background:#17191D;color:#F6F5F1">
+      <div data-r="up" data-d="150" style="opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;font-family:'Inter Tight','Manrope',sans-serif;font-weight:700;font-size:clamp(40px,5vw,72px);letter-spacing:-.04em;line-height:1;margin-bottom:20px;color:#26A078">СТАЛО</div>
+      <sc-for list="{{ now }}" as="r" hint-placeholder-count="5">
+        <div data-r="up" data-d="{{ r.d }}" style="opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;padding:12px 0 14px;border-top:1px solid rgba(246,245,241,.18)">
+          <div style="font:500 clamp(18px,1.7vw,24px)/1.2 'Inter Tight','Manrope',sans-serif;margin-bottom:10px;text-wrap:pretty">{{ r.t }}</div>
+          <i style="display:block;height:6px;width:100%;background:#26A078;border-radius:3px"></i>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<!-- CASE 2 KEY EFFECT -->
+<section style="background:#17191D;color:#F6F5F1;padding:clamp(40px,7vh,80px) 0 clamp(48px,8vh,96px)">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px)">
+    <div data-r="up" style="opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;font:600 13px/1 'Inter',sans-serif;letter-spacing:.12em;color:#26A078;margin-bottom:16px">КЛЮЧЕВОЙ ЭФФЕКТ</div>
+    <p data-r="up" data-d="100" style="margin:0;max-width:1000px;opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease;font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(32px,5vw,76px);line-height:1;letter-spacing:-.035em;text-wrap:balance">Дальнейший найм менеджеров <span style="color:#26A078">был остановлен</span></p>
+    <div style="margin-top:clamp(24px,5vh,48px);display:flex;flex-wrap:wrap;align-items:baseline;gap:8px clamp(16px,3vw,40px);color:#26A078">
+      <div style="display:flex;align-items:baseline;gap:10px">
+        <span data-r="up" data-count="40000" data-d="100" style="opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease;font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(52px,9vw,140px);line-height:1;letter-spacing:-.05em">40 000</span>
+        <span style="font:500 clamp(16px,1.8vw,26px)/1 'Inter Tight','Manrope',sans-serif">$/месяц</span>
+      </div>
+      <span data-r="up" data-d="400" style="opacity:0;transition:opacity .7s ease;font:500 clamp(36px,5vw,72px)/1 'Inter Tight','Manrope',sans-serif;color:#9B99F7">→</span>
+      <div style="display:flex;align-items:baseline;gap:10px">
+        <span data-r="up" data-count="480000" data-d="600" style="opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease;font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(52px,9vw,140px);line-height:1;letter-spacing:-.05em">480 000</span>
+        <span style="font:500 clamp(16px,1.8vw,26px)/1 'Inter Tight','Manrope',sans-serif">$/год</span>
+      </div>
+    </div>
+    <p data-r="up" data-d="900" style="margin:16px 0 0;opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease;font:500 clamp(16px,1.5vw,21px)/1.3 'Inter',sans-serif;color:#F6F5F1">≈ $480K потенциальной экономии бизнеса в год</p>
+  </div>
+</section>
+
+<!-- ARCHITECTURE -->
+<section style="padding:clamp(56px,9vh,104px) 0">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px);display:flex;flex-wrap:wrap;gap:clamp(28px,4vw,64px);align-items:center">
+    <div style="flex:5 1 340px;min-width:0">
+      <div data-r="up" style="opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;font:600 13px/1 'Inter',sans-serif;letter-spacing:.12em;color:#5755E7;margin-bottom:16px">ЧТО БЫЛО СОЗДАНО:</div>
+      <p data-r="up" data-d="80" style="margin:0;opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease;font:500 clamp(18px,1.8vw,26px)/1.25 'Inter Tight','Manrope',sans-serif;letter-spacing:-.015em;text-wrap:pretty">архитектурная <span style="color:#5755E7">система</span> портала, которая позволяет улучшать операции и подключать следующие бизнес-функции без пересборки продукта.</p>
+      <div data-r="line" data-d="160" style="height:1px;background:#17191D;margin:clamp(20px,3.5vh,36px) 0;transform:scaleX(0);transform-origin:left;transition:transform 1s cubic-bezier(.6,0,.2,1)"></div>
+      <h3 data-r="up" data-d="200" style="margin:0;opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(30px,3.8vw,56px);line-height:1;letter-spacing:-.035em;text-wrap:balance">Единая архитектура портала для 7 ролей</h3>
+      <p data-r="up" data-d="280" style="margin:18px 0 0;opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease;font-size:clamp(16px,1.3vw,18px);line-height:1.5;color:#4A4D55;text-wrap:pretty">Спроектирована единая система, которая объединяет процессы <span style="color:#5755E7;font-weight:600">7 ролей</span> и позволяет данным бесшовно переходить между ними.</p>
+    </div>
+    <div style="flex:7 1 480px;min-width:0">
+      <div data-r="up" data-d="100" style="opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease;background:#fff;border-radius:22px;padding:clamp(10px,1.6vw,22px);box-shadow:0 40px 100px -50px rgba(23,25,29,.35)">
+        <img data-zoom="1" onClick="{{ openZoom }}" src="img/image7.png" alt="" loading="lazy" style="display:block;width:100%;height:auto;cursor:zoom-in">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DATA LAYER -->
+<section style="background:#17191D;color:#F6F5F1;padding:clamp(56px,9vh,104px) 0 clamp(40px,6vh,72px);overflow:hidden">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px)">
+    <p data-r="up" style="margin:0;max-width:1180px;opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(28px,4.2vw,64px);line-height:1.04;letter-spacing:-.03em;text-wrap:pretty">Система портала не только снижает нагрузку, но и создаёт <span style="color:#9B99F7">новый слой данных</span></p>
+    <p data-r="up" data-d="120" style="margin:clamp(16px,3vh,28px) 0 0;max-width:760px;opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease;font-size:clamp(16px,1.4vw,20px);line-height:1.5;color:#C9CBD1;text-wrap:pretty">от единой базы знаний и автоматизации действий в один клик — к постепенному исключению ручных операций из процесса.</p>
+  </div>
+  <div style="max-width:1440px;margin:clamp(32px,6vh,64px) auto 0;padding:0 clamp(12px,2vw,32px)">
+    <div data-grow="1" style="border-radius:32px;overflow:hidden;box-shadow:0 60px 120px -40px rgba(0,0,0,.8);background:#fff;will-change:transform">
+      <img data-zoom="1" onClick="{{ openZoom }}" src="img/portal.png" alt="" loading="lazy" style="display:block;width:100%;height:auto;cursor:zoom-in">
+    </div>
+  </div>
+</section>
+
+<!-- SIGNALS -->
+<section style="padding:clamp(48px,8vh,88px) 0 clamp(40px,6vh,72px)">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px)">
+    <div style="display:flex;flex-wrap:wrap;gap:16px 40px;align-items:flex-end;justify-content:space-between;margin-bottom:clamp(20px,4vh,36px)">
+      <h3 data-r="up" style="margin:0;flex:6 1 380px;opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(32px,4.4vw,64px);line-height:1;letter-spacing:-.04em;text-wrap:balance">Как работает <span style="color:#5755E7">система сигналов</span></h3>
+      <p data-r="up" data-d="100" style="margin:0;flex:5 1 280px;max-width:460px;opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease;font-size:clamp(15px,1.2vw,17px);line-height:1.45;color:#4A4D55;text-wrap:pretty">Портал постоянно анализирует данные и коммуникации и автоматически подсвечивает сотрудникам точки, требующие внимания.</p>
+    </div>
+    <sc-for list="{{ signals }}" as="row" hint-placeholder-count="4">
+      <div style="border-top:1px solid #17191D;padding:14px 0;display:flex;flex-wrap:wrap;gap:10px 20px;align-items:stretch">
+        <div data-r="up" style="flex:0 0 150px;min-width:0;opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease"><div style="font:600 11px/1 'Inter',sans-serif;color:#5755E7;letter-spacing:.08em;margin-bottom:8px">{{ row.n }}</div><div style="font:600 clamp(18px,1.6vw,22px)/1.1 'Inter Tight','Manrope',sans-serif;letter-spacing:-.02em">{{ row.name }}</div></div>
+        <div style="flex:1 1 480px;min-width:0;display:flex;flex-wrap:wrap;gap:8px;align-items:stretch">
+          <sc-for list="{{ row.nodes }}" as="nd" hint-placeholder-count="3">
+            <div data-r="up" data-d="{{ nd.d }}" style="flex:1 1 180px;min-width:0;position:relative;opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease;padding:16px 14px 12px;border-radius:10px;background:{{ nd.bg }};color:{{ nd.fg }}">
+              <i data-r="line" data-d="{{ nd.d2 }}" style="position:absolute;left:0;right:0;top:0;height:3px;border-radius:10px 10px 0 0;background:#5755E7;transform:scaleX(0);transform-origin:left;transition:transform .7s cubic-bezier(.6,0,.2,1)"></i>
+              <sc-if value="{{ nd.lead }}" hint-placeholder-val="{{ false }}"><div style="font:600 11px/1 'Inter',sans-serif;color:#5755E7;letter-spacing:.06em;margin-bottom:6px">{{ nd.lead }}</div></sc-if>
+              <div style="font:500 clamp(15px,1.15vw,17px)/1.3 'Inter Tight','Manrope',sans-serif;text-wrap:pretty">{{ nd.t }}</div>
+            </div>
+            <sc-if value="{{ nd.arrow }}" hint-placeholder-val="{{ false }}"><div style="flex:none;align-self:center;color:#5755E7;font:600 16px/1 'Inter',sans-serif">→</div></sc-if>
+          </sc-for>
+        </div>
+      </div>
+    </sc-for>
+    <div style="border-top:1px solid #17191D"></div>
+  </div>
+</section>
+
+<!-- MVP -->
+<section style="padding:clamp(24px,5vh,56px) 0 clamp(56px,9vh,104px)">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px)">
+    <p data-r="up" style="margin:0;width:100%;opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(30px,4.6vw,72px);line-height:1.04;letter-spacing:-.035em;text-wrap:balance">Сотруднику не нужно искать проблему — система сама определяет отклонение, <span style="color:#5755E7">подсвечивает его и инициирует следующий шаг.</span></p>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section style="background:#17191D;color:#F6F5F1;padding:clamp(56px,9vh,104px) 0 clamp(40px,7vh,80px)">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(20px,5.5vw,96px)">
+    <div style="display:flex;flex-wrap:wrap;gap:28px;align-items:center">
+      <div data-r="up" style="flex:0 0 clamp(100px,12vw,170px);aspect-ratio:1/1;border-radius:50%;overflow:hidden;opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease;background:#22252B"><img src="img/dmitry.png" alt="" loading="lazy" style="display:block;width:100%;height:100%;border-radius:50%"></div>
+      <div data-r="up" data-d="120" style="flex:1 1 360px;min-width:0;opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease">
+        <div style="font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(40px,6.4vw,96px);line-height:.98;letter-spacing:-.04em">Дмитрий Сазонов</div>
+        <div style="margin-top:14px;font:500 clamp(16px,1.5vw,21px)/1.3 'Inter',sans-serif;color:#C9CBD1">Technical Project Manager | ИИ Интегратор</div>
+      </div>
+    </div>
+    <p data-r="up" style="margin:clamp(40px,8vh,80px) 0 0;max-width:1180px;opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1);font-family:'Inter Tight','Manrope',sans-serif;font-weight:500;font-size:clamp(26px,3.8vw,56px);line-height:1.06;letter-spacing:-.03em;text-wrap:pretty"><span style="color:#A9ABB3">Главное правило:</span> не автоматизировать существующий хаос, а сначала <span style="color:#9B99F7">понять и перепроектировать процесс</span> - затем собрать решение, которое можно <span style="color:#9B99F7">поддерживать и масштабировать</span>.</p>
+    <p data-r="up" style="margin:clamp(40px,8vh,80px) 0 0;padding-top:28px;border-top:1px solid rgba(246,245,241,.2);opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease;font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(28px,4vw,60px);line-height:1;letter-spacing:-.035em;color:#9B99F7">Буду рад познакомиться лично</p>
+    <a id="contact" href="https://t.me/saizonov" target="_blank" rel="noopener" style="scroll-margin-top:30vh;margin-top:clamp(20px,4vh,36px);display:inline-flex;align-items:center;gap:16px;color:#F6F5F1;text-decoration:none;font-family:'Inter Tight','Manrope',sans-serif;font-weight:600;font-size:clamp(28px,4vw,56px);letter-spacing:-.03em;line-height:1;padding-bottom:6px;background-image:linear-gradient(currentColor,currentColor);background-repeat:no-repeat;background-position:0 100%;background-size:0 2px;transition:background-size .3s ease" style-hover="background-size:100% 2px"><svg width="48" height="48" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#229ED9"/><path d="M5.2 11.7 17.4 7c.6-.2 1.1.1.9 1l-2.1 9.7c-.1.7-.6.9-1.2.6l-3.200-2.400-1.500 1.500c-.2.2-.3.3-.6.3l.2-3.300 6-5.400c.3-.2-.1-.4-.4-.2l-7.400 4.700-3.200-1c-.7-.2-.7-.7.1-1z" fill="#fff"/></svg><span>@saizonov</span></a>
+  </div>
+</section>
+
+<div id="lb" onClick="{{ closeZoom }}" style="display:none;position:fixed;inset:0;z-index:100;background:rgba(23,25,29,.92);overflow:auto;cursor:zoom-out;padding:32px;box-sizing:border-box">
+  <img id="lbimg" alt="" style="display:block;margin:auto;max-width:min(100%,1600px);height:auto;max-height:none;border-radius:12px;background:#fff">
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;motion&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Поведение&quot;},&quot;stickyStory&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Поведение&quot;}}">
+class Component extends DCLogic {
+  state = { finOpen: false, fin: '' };
+  componentDidMount() {
+    this.reduce = matchMedia('(prefers-reduced-motion: reduce)').matches || this.props.motion === false;
+    this.tick = () => { if (this._raf) return; this._raf = requestAnimationFrame(() => { this._raf = 0; this.frame(); }); };
+    this.key = e => { if (e.key === 'Escape') { const l = document.getElementById('lb'); if (l) l.style.display = 'none'; } };
+    addEventListener('scroll', this.tick, { passive: true });
+    addEventListener('resize', this.tick);
+    addEventListener('keydown', this.key);
+    this._t = [0, 350, 1200, 2600].map(ms => setTimeout(() => this.scan(), ms));
+  }
+  componentWillUnmount() {
+    removeEventListener('scroll', this.tick); removeEventListener('resize', this.tick); removeEventListener('keydown', this.key);
+    (this._t || []).forEach(clearTimeout); if (this.io) this.io.disconnect();
+  }
+  scan() {
+    const q = s => Array.from(document.querySelectorAll(s));
+    if (!this.io) this.io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { this.reveal(e.target); this.io.unobserve(e.target); } }), { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+    if (!this.io3) this.io3 = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { this.io3.unobserve(e.target); (e.target.__lines || []).forEach(l => this.reveal(l)); } }), { threshold: 0.2, rootMargin: '0px 0px -6% 0px' });
+    q('[data-r="line"]').forEach(el => {
+      if (el.__s) return; el.__s = 1;
+      el.style.transitionDelay = (el.dataset.d || 0) + 'ms';
+      if (this.reduce) { el.style.transition = 'none'; this.reveal(el); return; }
+      const p = el.parentElement; (p.__lines = p.__lines || []).push(el); this.io3.observe(p);
+    });
+    q('[data-r]:not([data-r="line"])').forEach(el => {
+      if (el.__s) return; el.__s = 1;
+      if (this.reduce) { el.style.transition = 'none'; this.reveal(el, true); }
+      else { el.style.transitionDelay = (el.dataset.d || 0) + 'ms'; this.io.observe(el); }
+    });
+    if (!this.io2) this.io2 = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { this.io2.unobserve(e.target); if (!this.reduce) { setTimeout(() => this.burst(e.target, 0), 550); setTimeout(() => this.burst(e.target, 1), 950); setTimeout(() => this.burst(e.target, 2), 1350); } } }), { threshold: 0.55 });
+    q('[data-burst]').forEach(el => { if (!el.__b) { el.__b = 1; this.io2.observe(el); } });
+    q('[data-desk]').forEach(el => { if (!el.__d) el.__d = getComputedStyle(el).display; });
+    this.st = this.st || [];
+    q('[data-sticky]').forEach(c => {
+      if (c.__s) return; c.__s = 1;
+      const stage = c.querySelector('[data-stage]'), items = Array.from(c.querySelectorAll('[data-s]'));
+      const s = { c, stage, items, n: +c.dataset.sticky, bgs: c.dataset.bgs.split(','), fgs: c.dataset.fgs.split(','), c0: c.style.cssText, g0: stage.style.cssText, m: null, idx: -1 };
+      items.forEach(it => { it.__c0 = it.style.cssText; if (this.reduce) it.style.transition = 'none'; });
+      if (this.reduce) stage.style.transition = 'none';
+      this.st.push(s);
+    });
+    this.tick();
+  }
+  burst(host, k) {
+    const cv = host.querySelector('canvas'); if (!cv) return;
+    const dpr = Math.min(2, devicePixelRatio || 1), w = host.clientWidth, h = host.clientHeight;
+    if (cv.width !== w * dpr) { cv.width = w * dpr; cv.height = h * dpr; }
+    const ctx = cv.getContext('2d'); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const cols = ['#9B99F7', '#26A078', '#F6F5F1', '#5755E7', '#6FD3AE'];
+    const ox = [.5, .24, .76][k] * w, oy = [.45, .5, .5][k] * h;
+    const ps = Array.from({ length: 70 }, () => { const a = Math.random() * 6.283, s = 1.5 + Math.random() * 5.5; return { x: ox, y: oy, vx: Math.cos(a) * s, vy: Math.sin(a) * s, life: 1, d: .012 + Math.random() * .014, r: 1.5 + Math.random() * 2, c: cols[Math.floor(Math.random() * cols.length)] }; });
+    this._fw = (this._fw || []).concat(ps);
+    if (this._fwRun) return; this._fwRun = true;
+    const loop = () => {
+      ctx.clearRect(0, 0, w, h);
+      this._fw = this._fw.filter(p => p.life > 0);
+      this._fw.forEach(p => { p.x += p.vx; p.y += p.vy; p.vx *= .975; p.vy = p.vy * .975 + .07; p.life -= p.d; ctx.globalAlpha = Math.max(0, p.life); ctx.fillStyle = p.c; ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.283); ctx.fill(); });
+      ctx.globalAlpha = 1;
+      if (this._fw.length) requestAnimationFrame(loop); else { this._fwRun = false; ctx.clearRect(0, 0, w, h); cv.width = 1; cv.height = 1; }
+    };
+    requestAnimationFrame(loop);
+  }
+  reveal(el) {
+    el.style.opacity = '1'; el.style.transform = 'none';
+    if (el.dataset.count && !el.__cnt) {
+      el.__cnt = 1;
+      if (this.reduce) return;
+      const to = +el.dataset.count, fin = el.textContent, d = +(el.dataset.d || 0), f = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+      setTimeout(() => {
+        const t0 = performance.now();
+        const step = t => { const k = Math.min(1, (t - t0) / 1500), e = 1 - Math.pow(1 - k, 3); el.textContent = k < 1 ? f(Math.round(to * e)) : fin; if (k < 1) requestAnimationFrame(step); };
+        requestAnimationFrame(step);
+      }, d);
+    }
+  }
+  frame() {
+    const vh = innerHeight, y = scrollY, mobile = innerWidth < 860 || this.props.stickyStory === false;
+    const bar = document.getElementById('pbar');
+    if (bar) bar.style.width = Math.min(100, y / Math.max(1, document.documentElement.scrollHeight - vh) * 100) + '%';
+    const c1 = document.getElementById('case1'), c2 = document.getElementById('case2'), mid = y + vh * 0.4;
+    const act = c2 && mid >= c2.offsetTop ? '2' : (c1 && mid >= c1.offsetTop ? '1' : '');
+    document.querySelectorAll('[data-nav]').forEach(a => { const on = a.dataset.nav === act; a.style.backgroundColor = on ? '#5755E7' : 'transparent'; a.style.color = on ? '#fff' : '#5755E7'; });
+    document.querySelectorAll('[data-desk]').forEach(el => el.style.display = mobile ? 'none' : (el.__d || ''));
+    document.querySelectorAll('[data-mob]').forEach(el => el.style.display = mobile ? 'block' : 'none');
+    (this.st || []).forEach(s => {
+      const { c, stage, items, n, bgs, fgs } = s;
+      if (mobile !== s.m) {
+        s.m = mobile; s.idx = -1;
+        if (mobile) {
+          c.style.cssText = s.c0 + ';height:auto';
+          stage.style.cssText = s.g0 + ';position:relative;height:auto;overflow:visible;padding-top:8vh;padding-bottom:6vh';
+          stage.style.backgroundColor = bgs[bgs.length - 1]; stage.style.color = fgs[fgs.length - 1];
+          items.forEach(it => { it.style.cssText = it.__c0 + ';position:relative;inset:auto;opacity:1;transform:none;margin-bottom:32px'; });
+        } else {
+          c.style.cssText = s.c0; stage.style.cssText = s.g0; items.forEach(it => it.style.cssText = it.__c0);
+        }
+      }
+      if (mobile) return;
+      const r = c.getBoundingClientRect(), p = Math.max(0, Math.min(1, -r.top / Math.max(1, r.height - vh)));
+      const idx = Math.min(n - 1, Math.floor(p * n));
+      if (idx === s.idx) return; s.idx = idx;
+      stage.style.backgroundColor = bgs[idx]; stage.style.color = fgs[idx];
+      items.forEach(it => {
+        const i = +it.dataset.s, on = i === idx;
+        it.style.opacity = on ? '1' : '0';
+        it.style.transform = on ? 'none' : 'translateY(' + (i < idx ? -28 : 28) + 'px)';
+        it.style.pointerEvents = on ? 'auto' : 'none';
+      });
+      c.querySelectorAll('[data-dot]').forEach(d => d.style.opacity = (+d.dataset.dot === idx) ? '1' : '0.35');
+      c.querySelectorAll('[data-prog]').forEach(pg => pg.style.height = ((idx + 1) / n * 100) + '%');
+    });
+    if (this.reduce) return;
+    document.querySelectorAll('[data-px]').forEach(el => {
+      const r = el.getBoundingClientRect(); if (r.bottom < -200 || r.top > vh + 200) return;
+      el.style.transform = 'translateY(' + ((r.top + r.height / 2 - vh / 2) * parseFloat(el.dataset.px) * (mobile ? .5 : 1)).toFixed(1) + 'px)';
+    });
+    document.querySelectorAll('[data-grow]').forEach(el => {
+      const r = el.getBoundingClientRect(); if (r.bottom < -200 || r.top > vh + 200) return;
+      const g = Math.max(0, Math.min(1, (vh - r.top) / (vh * 0.85))), min = mobile ? .92 : .78;
+      el.style.transform = 'scale(' + (min + (1 - min) * g).toFixed(3) + ')';
+      el.style.borderRadius = (32 - 24 * g).toFixed(1) + 'px';
+    });
+  }
+  renderVals() {
+    const pick = v => () => this.setState({ fin: v, finOpen: false });
+    const sig = (name, n, a, b, c, lead) => { const nodes = [
+      { t: a, lead: '', bg: '#E8E8E3', fg: '#17191D', d: 0, d2: 200 },
+      { t: b, lead, bg: c ? '#ECEAFF' : '#17191D', fg: c ? '#17191D' : '#F6F5F1', d: 250, d2: 450 }];
+      if (c) nodes.push({ t: c, lead: '', bg: '#17191D', fg: '#F6F5F1', d: 500, d2: 700 });
+      nodes.forEach((x, i) => x.arrow = i < nodes.length - 1);
+      return { n, name, nodes }; };
+    const names = ['Учебный план', 'оценку навыков', 'рекомендации по программе', 'подходящий пакет', 'рекомендации по подбору преподавателя'];
+    const was = [['100+ таблиц и других документов', '58%', '28%', '0%'], ['Разрозненные чаты', '34%', '40%', '12%'], ['Отсутствие регламентов', '72%', '10%', '4%'], ['Непрозрачные процессы', '22%', '52%', '18%'], ['Рост продукта = новый найм менеджеров', '64%', '18%', '8%']];
+    const now = ['Единое пространство данных', 'Прозрачное управление', 'Высвобождение 40% ресурсов сотрудников', 'Масштабирование без найма (экономия)', 'База данных для развития'];
+    return {
+      finOpen: this.state.finOpen, fin: this.state.fin, hasFin: !!this.state.fin,
+      finLabel: this.state.fin || 'High / Middle / Low',
+      toggleFin: () => this.setState(s => ({ finOpen: !s.finOpen })),
+      finOptions: ['High', 'Middle', 'Low'].map(l => ({ label: l, pick: pick(l) })),
+      openZoom: e => { document.getElementById('lbimg').src = e.currentTarget.getAttribute('src'); document.getElementById('lb').style.display = 'flex'; },
+      closeZoom: () => { document.getElementById('lb').style.display = 'none'; },
+      chain: names.map((t, i) => ({ t, n: '0' + (i + 1), d: i * 220, d2: i * 220 + 160 })),
+      was: was.map((r, i) => ({ t: r[0], w: r[1], w2: r[2], ml: r[3], d: 100 + i * 100, tx: ['0%', '5%', '-1.5%', '9%', '2%'][i], rot: ['-1.6deg', '1.2deg', '-.9deg', '2deg', '-1.3deg'][i], rot2: ['3deg', '-4deg', '2deg', '-3deg', '4deg'][i] })),
+      now: now.map((t, i) => ({ t, d: 250 + i * 100 })),
+      signals: [
+        sig('База знаний', '01', 'Повторяющиеся вопросы', 'информации не хватает', 'задача дополнить базу знаний.', 'сигнал:'),
+        sig('Коммуникации', '02', 'История диалогов сохраняется и анализируется', 'требуется действие / эскалация', 'задача менеджеру.', 'сигнал:'),
+        sig('Профиль ребёнка', '03', 'Посещаемость + прогресс + домашние задания + вовлечённость', 'ребёнок в зоне риска', 'менеджер получает задачу до возникновения оттока.', 'сигнал:'),
+        sig('Другие роли', '04', 'Единый слой данных позволяет расширять систему дальше', 'контроль нагрузки · контроль качества · повторные продажи · удержание · операционные задачи.', null, '')
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
